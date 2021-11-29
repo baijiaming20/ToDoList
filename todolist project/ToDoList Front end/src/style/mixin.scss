@@ -1,0 +1,22 @@
+@mixin disable-select {
+    user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+@mixin transition-all {
+    transition: all .3s;
+}
+@mixin hover-style-1 {
+    background-color: #ecf5ff;
+}
+@mixin hover-style-2 {
+    border: 1px solid #c6e2ff;
+}
+@mixin hover-style-3 {
+    background-color: #ecf5ff;
+    border: 1px solid #c6e2ff;
+}
+@mixin letter-spacing-little {
+    letter-spacing: 1px;
+}

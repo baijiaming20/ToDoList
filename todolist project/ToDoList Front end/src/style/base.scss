@@ -1,0 +1,21 @@
+$bg-color: #fdfdfd;
+$bg-color-2: #eef2f5;
+$bg-color-3: #b3c0d1;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+#app {
+    height: 100%;
+}
+
+body {
+    background-color: $bg-color;
+    height: 100%;
+    font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB',
+        'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
+    overflow: hidden;
+}

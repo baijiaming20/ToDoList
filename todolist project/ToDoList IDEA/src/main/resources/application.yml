@@ -1,0 +1,26 @@
+
+server:
+  port: 8082
+#  port: 8080
+# session超时时长
+#  servlet:
+#    session:
+#      timeout: 604800
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/todolist?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+
+openProject:
+  isOpen: true
+  cmd: cmd /c start
+  web:
+    openUrl: http://localhost:${server.port}
