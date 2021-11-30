@@ -12,7 +12,7 @@ This is a todolist project with Spring boot and Vue3.<br>
 前端：<br>
 Element UI、TypeScript、Sass、Axios、Yarn、Vue3、Vue-Router、Vue-i18n<br>
 后端：<br>
-Java、Spring boot2、MySQL、Mybatis、Maven
+Java、Spring boot2、MySQL5、Mybatis、Maven
 
 **使用的开发环境：**<br>
 Windows、IDEA、VS-Code
